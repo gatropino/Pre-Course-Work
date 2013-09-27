@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37064BB217EA82CE00369697 /* CheckForInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064BB117EA82CE00369697 /* CheckForInteger.m */; };
 		379E788617EA5D03003D6A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E788517EA5D03003D6A32 /* UIKit.framework */; };
 		379E788817EA5D03003D6A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E788717EA5D03003D6A32 /* Foundation.framework */; };
 		379E788A17EA5D03003D6A32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E788917EA5D03003D6A32 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37064BB017EA82CE00369697 /* CheckForInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckForInteger.h; sourceTree = "<group>"; };
+		37064BB117EA82CE00369697 /* CheckForInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckForInteger.m; sourceTree = "<group>"; };
 		379E788217EA5D03003D6A32 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379E788517EA5D03003D6A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		379E788717EA5D03003D6A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 		379E788B17EA5D03003D6A32 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				37064BB017EA82CE00369697 /* CheckForInteger.h */,
+				37064BB117EA82CE00369697 /* CheckForInteger.m */,
 				379E789417EA5D03003D6A32 /* AppDelegate.h */,
 				379E789517EA5D03003D6A32 /* AppDelegate.m */,
 				379E789D17EA5D03003D6A32 /* ViewController.h */,
@@ -176,6 +181,7 @@
 				379E789217EA5D03003D6A32 /* main.m in Sources */,
 				379E789617EA5D03003D6A32 /* AppDelegate.m in Sources */,
 				379E789F17EA5D03003D6A32 /* ViewController.m in Sources */,
+				37064BB217EA82CE00369697 /* CheckForInteger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				379E78A717EA5D03003D6A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

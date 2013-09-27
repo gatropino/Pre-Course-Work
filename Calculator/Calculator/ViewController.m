@@ -27,8 +27,8 @@
 }
 
 - (IBAction)addTogether:(id)sender {
-    int x, y, z;
     
+    int x, y, z;
     x = [_firstInput.text intValue];
     y = [_secondInput.text intValue];
     z = x + y;
