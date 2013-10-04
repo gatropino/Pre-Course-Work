@@ -135,14 +135,89 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waytogo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="dbQ-hW-diw">
+                                <rect key="frame" x="20" y="49" width="280" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homerDoh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MLG-Ij-jH5">
+                                <rect key="frame" x="20" y="55" width="280" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5N-sl-rb2">
+                                <rect key="frame" x="34" y="52" width="253" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5A-Ep-dgT">
+                                <rect key="frame" x="20" y="191" width="280" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" backgroundImage="paused.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resumeButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Rf-dl-3fM"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fj6-th-a98">
+                                <rect key="frame" x="65" y="123" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vJu-Wn-3AD"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuG-aa-FHC">
+                                <rect key="frame" x="53" y="123" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Resume">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resumeButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="33X-YP-F8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQQ-Lv-M1C">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="startScreen" backgroundImage="simpsonsBackground.jpg">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGameButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L0A-cd-ezD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLj-JD-ZJc">
+                                <rect key="frame" x="53" y="185" width="217" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="startGameButton" backgroundImage="startGame.gif">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGameButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Vv-HI-7hl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="highScoreLabel" destination="c5N-sl-rb2" id="tv5-Ff-Ejr"/>
+                        <outlet property="matchImage" destination="dbQ-hW-diw" id="vhS-O3-0jP"/>
                         <outlet property="matchesLabel" destination="sze-su-WCP" id="2Ak-5g-3ey"/>
+                        <outlet property="missImage" destination="MLG-Ij-jH5" id="AZR-Np-hJ6"/>
                         <outlet property="missesLabel" destination="bOP-s2-MLD" id="5Af-XM-71a"/>
+                        <outlet property="pauseButton" destination="Fj6-th-a98" id="rY2-5f-gxJ"/>
+                        <outlet property="pauseOverlayButton" destination="x5A-Ep-dgT" id="SzC-zd-6aV"/>
+                        <outlet property="resumeButton" destination="JuG-aa-FHC" id="RrE-ZB-J0A"/>
                         <outlet property="startButton" destination="L0x-DG-SWi" id="qEg-0n-IQc"/>
+                        <outlet property="startGameButton" destination="dLj-JD-ZJc" id="dQo-2e-zEM"/>
+                        <outlet property="startGameScreen" destination="ZQQ-Lv-M1C" id="IN1-GQ-eS6"/>
                         <outlet property="timeLabel" destination="B75-A0-xHy" id="igb-LJ-Xvf"/>
                     </connections>
                 </viewController>
@@ -150,6 +225,13 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="homerDoh.jpg" width="270" height="270"/>
+        <image name="paused.jpeg" width="500" height="497"/>
+        <image name="simpsonsBackground.jpg" width="1920" height="1200"/>
+        <image name="startGame.gif" width="248" height="54"/>
+        <image name="waytogo.gif" width="332" height="285"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

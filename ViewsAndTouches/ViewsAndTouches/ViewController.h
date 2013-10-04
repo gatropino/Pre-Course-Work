@@ -14,7 +14,19 @@
 @property (weak, nonatomic) IBOutlet UILabel *matchesLabel;
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *matchImage;
+@property (weak, nonatomic) IBOutlet UIImageView *missImage;
+@property (weak, nonatomic) IBOutlet UILabel *highScoreLabel;
+@property (weak, nonatomic) IBOutlet UIButton *pauseButton;
+@property (weak, nonatomic) IBOutlet UIButton *pauseOverlayButton;
+@property (weak, nonatomic) IBOutlet UIButton *resumeButton;
+@property (weak, nonatomic) IBOutlet UIButton *startGameButton;
+@property (weak, nonatomic) IBOutlet UIButton *startGameScreen;
 
+
+- (IBAction)startGameButtonPressed:(id)sender;
+- (IBAction)resumeButtonPressed:(id)sender;
+- (IBAction)pauseButtonPressed:(id)sender;
 - (IBAction)resetButtonPressed:(id)sender;
 - (IBAction)startButtonPressed:(id)sender;
 

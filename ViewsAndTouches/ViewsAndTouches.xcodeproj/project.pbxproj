@@ -22,6 +22,27 @@
 		370ABC1617F49C6A004EF4A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC1417F49C6A004EF4A8 /* InfoPlist.strings */; };
 		370ABC1817F49C6A004EF4A8 /* ViewsAndTouchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 370ABC1717F49C6A004EF4A8 /* ViewsAndTouchesTests.m */; };
 		370ABC2317F49C98004EF4A8 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370ABC2217F49C98004EF4A8 /* MyView.m */; };
+		370ABC3717F61C61004EF4A8 /* waytogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3617F61C61004EF4A8 /* waytogo.gif */; };
+		370ABC3917F61EB2004EF4A8 /* homerDoh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3817F61EB2004EF4A8 /* homerDoh.jpg */; };
+		370ABC3B17F6220F004EF4A8 /* duffCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3A17F6220F004EF4A8 /* duffCard.jpg */; };
+		370ABC4517F64192004EF4A8 /* barney.png in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3C17F64191004EF4A8 /* barney.png */; };
+		370ABC4617F64192004EF4A8 /* bart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3D17F64191004EF4A8 /* bart.jpeg */; };
+		370ABC4717F64192004EF4A8 /* flanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3E17F64191004EF4A8 /* flanders.jpg */; };
+		370ABC4817F64192004EF4A8 /* homerFalling.png in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC3F17F64192004EF4A8 /* homerFalling.png */; };
+		370ABC4917F64192004EF4A8 /* lisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4017F64192004EF4A8 /* lisa.jpg */; };
+		370ABC4A17F64192004EF4A8 /* maggy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4117F64192004EF4A8 /* maggy.gif */; };
+		370ABC4B17F64192004EF4A8 /* margeFamily.png in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4217F64192004EF4A8 /* margeFamily.png */; };
+		370ABC4C17F64192004EF4A8 /* moe.png in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4317F64192004EF4A8 /* moe.png */; };
+		370ABC4D17F64192004EF4A8 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4417F64192004EF4A8 /* star.jpg */; };
+		370ABC4F17F6534C004EF4A8 /* paused.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC4E17F6534C004EF4A8 /* paused.jpeg */; };
+		370ABC5117F65A02004EF4A8 /* simpsonsBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5017F65A02004EF4A8 /* simpsonsBackground.jpg */; };
+		370ABC5317F65C4E004EF4A8 /* startGame.gif in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5217F65C4E004EF4A8 /* startGame.gif */; };
+		370ABC5617F6627F004EF4A8 /* dohWrongOneSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5417F6627F004EF4A8 /* dohWrongOneSound.wav */; };
+		370ABC5717F6627F004EF4A8 /* wohooSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5517F6627F004EF4A8 /* wohooSound.wav */; };
+		370ABC5917F66837004EF4A8 /* startSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5817F66837004EF4A8 /* startSound.wav */; };
+		370ABC5C17F6698A004EF4A8 /* resetSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5A17F6698A004EF4A8 /* resetSound.wav */; };
+		370ABC5D17F6698A004EF4A8 /* winningSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5B17F6698A004EF4A8 /* winningSound.wav */; };
+		370ABC5F17F79A30004EF4A8 /* beerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370ABC5E17F79A30004EF4A8 /* beerSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +77,27 @@
 		370ABC1717F49C6A004EF4A8 /* ViewsAndTouchesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewsAndTouchesTests.m; sourceTree = "<group>"; };
 		370ABC2117F49C98004EF4A8 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = ../MyView.h; sourceTree = "<group>"; };
 		370ABC2217F49C98004EF4A8 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = ../MyView.m; sourceTree = "<group>"; };
+		370ABC3617F61C61004EF4A8 /* waytogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = waytogo.gif; sourceTree = "<group>"; };
+		370ABC3817F61EB2004EF4A8 /* homerDoh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homerDoh.jpg; sourceTree = "<group>"; };
+		370ABC3A17F6220F004EF4A8 /* duffCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duffCard.jpg; sourceTree = "<group>"; };
+		370ABC3C17F64191004EF4A8 /* barney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barney.png; path = ../barney.png; sourceTree = "<group>"; };
+		370ABC3D17F64191004EF4A8 /* bart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bart.jpeg; path = ../bart.jpeg; sourceTree = "<group>"; };
+		370ABC3E17F64191004EF4A8 /* flanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flanders.jpg; path = ../flanders.jpg; sourceTree = "<group>"; };
+		370ABC3F17F64192004EF4A8 /* homerFalling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homerFalling.png; path = ../homerFalling.png; sourceTree = "<group>"; };
+		370ABC4017F64192004EF4A8 /* lisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lisa.jpg; path = ../lisa.jpg; sourceTree = "<group>"; };
+		370ABC4117F64192004EF4A8 /* maggy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = maggy.gif; path = ../maggy.gif; sourceTree = "<group>"; };
+		370ABC4217F64192004EF4A8 /* margeFamily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = margeFamily.png; path = ../margeFamily.png; sourceTree = "<group>"; };
+		370ABC4317F64192004EF4A8 /* moe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moe.png; path = ../moe.png; sourceTree = "<group>"; };
+		370ABC4417F64192004EF4A8 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star.jpg; path = ../star.jpg; sourceTree = "<group>"; };
+		370ABC4E17F6534C004EF4A8 /* paused.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paused.jpeg; sourceTree = "<group>"; };
+		370ABC5017F65A02004EF4A8 /* simpsonsBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpsonsBackground.jpg; sourceTree = "<group>"; };
+		370ABC5217F65C4E004EF4A8 /* startGame.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = startGame.gif; sourceTree = "<group>"; };
+		370ABC5417F6627F004EF4A8 /* dohWrongOneSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dohWrongOneSound.wav; sourceTree = "<group>"; };
+		370ABC5517F6627F004EF4A8 /* wohooSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wohooSound.wav; sourceTree = "<group>"; };
+		370ABC5817F66837004EF4A8 /* startSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = startSound.wav; path = ../startSound.wav; sourceTree = "<group>"; };
+		370ABC5A17F6698A004EF4A8 /* resetSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = resetSound.wav; sourceTree = "<group>"; };
+		370ABC5B17F6698A004EF4A8 /* winningSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winningSound.wav; sourceTree = "<group>"; };
+		370ABC5E17F79A30004EF4A8 /* beerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beerSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +157,7 @@
 		370ABBF217F49C69004EF4A8 /* ViewsAndTouches */ = {
 			isa = PBXGroup;
 			children = (
+				370ABC3517F612BE004EF4A8 /* viewimages */,
 				370ABC2117F49C98004EF4A8 /* MyView.h */,
 				370ABC2217F49C98004EF4A8 /* MyView.m */,
 				370ABBFB17F49C69004EF4A8 /* AppDelegate.h */,
@@ -155,6 +198,34 @@
 				370ABC1417F49C6A004EF4A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		370ABC3517F612BE004EF4A8 /* viewimages */ = {
+			isa = PBXGroup;
+			children = (
+				370ABC5A17F6698A004EF4A8 /* resetSound.wav */,
+				370ABC5B17F6698A004EF4A8 /* winningSound.wav */,
+				370ABC5E17F79A30004EF4A8 /* beerSound.wav */,
+				370ABC5817F66837004EF4A8 /* startSound.wav */,
+				370ABC5017F65A02004EF4A8 /* simpsonsBackground.jpg */,
+				370ABC3C17F64191004EF4A8 /* barney.png */,
+				370ABC3D17F64191004EF4A8 /* bart.jpeg */,
+				370ABC3E17F64191004EF4A8 /* flanders.jpg */,
+				370ABC3F17F64192004EF4A8 /* homerFalling.png */,
+				370ABC4017F64192004EF4A8 /* lisa.jpg */,
+				370ABC4117F64192004EF4A8 /* maggy.gif */,
+				370ABC4217F64192004EF4A8 /* margeFamily.png */,
+				370ABC4317F64192004EF4A8 /* moe.png */,
+				370ABC4417F64192004EF4A8 /* star.jpg */,
+				370ABC5217F65C4E004EF4A8 /* startGame.gif */,
+				370ABC4E17F6534C004EF4A8 /* paused.jpeg */,
+				370ABC5417F6627F004EF4A8 /* dohWrongOneSound.wav */,
+				370ABC5517F6627F004EF4A8 /* wohooSound.wav */,
+				370ABC3A17F6220F004EF4A8 /* duffCard.jpg */,
+				370ABC3817F61EB2004EF4A8 /* homerDoh.jpg */,
+				370ABC3617F61C61004EF4A8 /* waytogo.gif */,
+			);
+			name = viewimages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +304,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370ABC3717F61C61004EF4A8 /* waytogo.gif in Resources */,
+				370ABC4F17F6534C004EF4A8 /* paused.jpeg in Resources */,
+				370ABC4D17F64192004EF4A8 /* star.jpg in Resources */,
+				370ABC4C17F64192004EF4A8 /* moe.png in Resources */,
+				370ABC4517F64192004EF4A8 /* barney.png in Resources */,
+				370ABC3B17F6220F004EF4A8 /* duffCard.jpg in Resources */,
+				370ABC5C17F6698A004EF4A8 /* resetSound.wav in Resources */,
+				370ABC5617F6627F004EF4A8 /* dohWrongOneSound.wav in Resources */,
+				370ABC4717F64192004EF4A8 /* flanders.jpg in Resources */,
 				370ABC0517F49C69004EF4A8 /* Images.xcassets in Resources */,
+				370ABC3917F61EB2004EF4A8 /* homerDoh.jpg in Resources */,
+				370ABC4A17F64192004EF4A8 /* maggy.gif in Resources */,
+				370ABC5717F6627F004EF4A8 /* wohooSound.wav in Resources */,
+				370ABC4B17F64192004EF4A8 /* margeFamily.png in Resources */,
 				370ABBF717F49C69004EF4A8 /* InfoPlist.strings in Resources */,
+				370ABC5117F65A02004EF4A8 /* simpsonsBackground.jpg in Resources */,
+				370ABC5F17F79A30004EF4A8 /* beerSound.wav in Resources */,
+				370ABC4817F64192004EF4A8 /* homerFalling.png in Resources */,
+				370ABC5D17F6698A004EF4A8 /* winningSound.wav in Resources */,
+				370ABC4917F64192004EF4A8 /* lisa.jpg in Resources */,
+				370ABC4617F64192004EF4A8 /* bart.jpeg in Resources */,
+				370ABC5917F66837004EF4A8 /* startSound.wav in Resources */,
 				370ABC0017F49C69004EF4A8 /* Main.storyboard in Resources */,
+				370ABC5317F65C4E004EF4A8 /* startGame.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
