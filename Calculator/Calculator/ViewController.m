@@ -47,12 +47,12 @@
 }
 
 - (IBAction)divis:(id)sender {
-    int x, y, z;
+    double x, y, z;
     
     x = [_firstInput.text intValue];
     y = [_secondInput.text intValue];
     z = x / y;
-    _total.text = [NSString stringWithFormat:@"The total is %i", z];
+    _total.text = [NSString stringWithFormat:@"The total is %.2f", z];
     
 }
 

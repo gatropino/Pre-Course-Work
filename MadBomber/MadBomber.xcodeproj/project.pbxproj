@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3745AF75180A221A00C6FA5F /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF73180A221A00C6FA5F /* MyParticle.sks */; };
+		3745AF76180A221A00C6FA5F /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF74180A221A00C6FA5F /* bokeh.png */; };
+		3745AF79180A22E300C6FA5F /* sparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF77180A22E300C6FA5F /* sparkParticle.sks */; };
+		3745AF7A180A22E300C6FA5F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF78180A22E300C6FA5F /* spark.png */; };
+		3745AF7C180A236500C6FA5F /* snowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF7B180A236500C6FA5F /* snowParticle.sks */; };
+		3745AF7E180A23BA00C6FA5F /* magicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3745AF7D180A23BA00C6FA5F /* magicParticle.sks */; };
+		377AD9BC180A046C00EB0008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9BB180A046C00EB0008 /* Foundation.framework */; };
+		377AD9BE180A046C00EB0008 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9BD180A046C00EB0008 /* CoreGraphics.framework */; };
+		377AD9C0180A046C00EB0008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9BF180A046C00EB0008 /* UIKit.framework */; };
+		377AD9C2180A046C00EB0008 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9C1180A046C00EB0008 /* SpriteKit.framework */; };
+		377AD9C8180A046C00EB0008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377AD9C6180A046C00EB0008 /* InfoPlist.strings */; };
+		377AD9CA180A046C00EB0008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AD9C9180A046C00EB0008 /* main.m */; };
+		377AD9CE180A046C00EB0008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AD9CD180A046C00EB0008 /* AppDelegate.m */; };
+		377AD9D1180A046C00EB0008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377AD9CF180A046C00EB0008 /* Main.storyboard */; };
+		377AD9D4180A046C00EB0008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AD9D3180A046C00EB0008 /* ViewController.m */; };
+		377AD9D7180A046C00EB0008 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AD9D6180A046C00EB0008 /* MyScene.m */; };
+		377AD9D9180A046C00EB0008 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 377AD9D8180A046C00EB0008 /* Spaceship.png */; };
+		377AD9DB180A046C00EB0008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377AD9DA180A046C00EB0008 /* Images.xcassets */; };
+		377AD9E2180A046C00EB0008 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9E1180A046C00EB0008 /* XCTest.framework */; };
+		377AD9E3180A046C00EB0008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9BB180A046C00EB0008 /* Foundation.framework */; };
+		377AD9E4180A046C00EB0008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377AD9BF180A046C00EB0008 /* UIKit.framework */; };
+		377AD9EC180A046C00EB0008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377AD9EA180A046C00EB0008 /* InfoPlist.strings */; };
+		377AD9EE180A046C00EB0008 /* MadBomberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AD9ED180A046C00EB0008 /* MadBomberTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377AD9E5180A046C00EB0008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377AD9B0180A046C00EB0008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377AD9B7180A046C00EB0008;
+			remoteInfo = MadBomber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3745AF73180A221A00C6FA5F /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		3745AF74180A221A00C6FA5F /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		3745AF77180A22E300C6FA5F /* sparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparkParticle.sks; sourceTree = "<group>"; };
+		3745AF78180A22E300C6FA5F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		3745AF7B180A236500C6FA5F /* snowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowParticle.sks; sourceTree = "<group>"; };
+		3745AF7D180A23BA00C6FA5F /* magicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = magicParticle.sks; sourceTree = "<group>"; };
+		377AD9B8180A046C00EB0008 /* MadBomber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadBomber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377AD9BB180A046C00EB0008 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		377AD9BD180A046C00EB0008 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		377AD9BF180A046C00EB0008 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		377AD9C1180A046C00EB0008 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		377AD9C5180A046C00EB0008 /* MadBomber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadBomber-Info.plist"; sourceTree = "<group>"; };
+		377AD9C7180A046C00EB0008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		377AD9C9180A046C00EB0008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377AD9CB180A046C00EB0008 /* MadBomber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadBomber-Prefix.pch"; sourceTree = "<group>"; };
+		377AD9CC180A046C00EB0008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		377AD9CD180A046C00EB0008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		377AD9D0180A046C00EB0008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377AD9D2180A046C00EB0008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		377AD9D3180A046C00EB0008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		377AD9D5180A046C00EB0008 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		377AD9D6180A046C00EB0008 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		377AD9D8180A046C00EB0008 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		377AD9DA180A046C00EB0008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		377AD9E0180A046C00EB0008 /* MadBomberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadBomberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377AD9E1180A046C00EB0008 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		377AD9E9180A046C00EB0008 /* MadBomberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadBomberTests-Info.plist"; sourceTree = "<group>"; };
+		377AD9EB180A046C00EB0008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		377AD9ED180A046C00EB0008 /* MadBomberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadBomberTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377AD9B5180A046C00EB0008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9BE180A046C00EB0008 /* CoreGraphics.framework in Frameworks */,
+				377AD9C0180A046C00EB0008 /* UIKit.framework in Frameworks */,
+				377AD9C2180A046C00EB0008 /* SpriteKit.framework in Frameworks */,
+				377AD9BC180A046C00EB0008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377AD9DD180A046C00EB0008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9E2180A046C00EB0008 /* XCTest.framework in Frameworks */,
+				377AD9E4180A046C00EB0008 /* UIKit.framework in Frameworks */,
+				377AD9E3180A046C00EB0008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377AD9AF180A046C00EB0008 = {
+			isa = PBXGroup;
+			children = (
+				377AD9C3180A046C00EB0008 /* MadBomber */,
+				377AD9E7180A046C00EB0008 /* MadBomberTests */,
+				377AD9BA180A046C00EB0008 /* Frameworks */,
+				377AD9B9180A046C00EB0008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377AD9B9180A046C00EB0008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9B8180A046C00EB0008 /* MadBomber.app */,
+				377AD9E0180A046C00EB0008 /* MadBomberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377AD9BA180A046C00EB0008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9BB180A046C00EB0008 /* Foundation.framework */,
+				377AD9BD180A046C00EB0008 /* CoreGraphics.framework */,
+				377AD9BF180A046C00EB0008 /* UIKit.framework */,
+				377AD9C1180A046C00EB0008 /* SpriteKit.framework */,
+				377AD9E1180A046C00EB0008 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377AD9C3180A046C00EB0008 /* MadBomber */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9CC180A046C00EB0008 /* AppDelegate.h */,
+				377AD9CD180A046C00EB0008 /* AppDelegate.m */,
+				377AD9CF180A046C00EB0008 /* Main.storyboard */,
+				377AD9D2180A046C00EB0008 /* ViewController.h */,
+				377AD9D3180A046C00EB0008 /* ViewController.m */,
+				377AD9D5180A046C00EB0008 /* MyScene.h */,
+				377AD9D6180A046C00EB0008 /* MyScene.m */,
+				377AD9D8180A046C00EB0008 /* Spaceship.png */,
+				377AD9DA180A046C00EB0008 /* Images.xcassets */,
+				3745AF73180A221A00C6FA5F /* MyParticle.sks */,
+				3745AF74180A221A00C6FA5F /* bokeh.png */,
+				3745AF77180A22E300C6FA5F /* sparkParticle.sks */,
+				3745AF7B180A236500C6FA5F /* snowParticle.sks */,
+				3745AF7D180A23BA00C6FA5F /* magicParticle.sks */,
+				3745AF78180A22E300C6FA5F /* spark.png */,
+				377AD9C4180A046C00EB0008 /* Supporting Files */,
+			);
+			path = MadBomber;
+			sourceTree = "<group>";
+		};
+		377AD9C4180A046C00EB0008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9C5180A046C00EB0008 /* MadBomber-Info.plist */,
+				377AD9C6180A046C00EB0008 /* InfoPlist.strings */,
+				377AD9C9180A046C00EB0008 /* main.m */,
+				377AD9CB180A046C00EB0008 /* MadBomber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		377AD9E7180A046C00EB0008 /* MadBomberTests */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9ED180A046C00EB0008 /* MadBomberTests.m */,
+				377AD9E8180A046C00EB0008 /* Supporting Files */,
+			);
+			path = MadBomberTests;
+			sourceTree = "<group>";
+		};
+		377AD9E8180A046C00EB0008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377AD9E9180A046C00EB0008 /* MadBomberTests-Info.plist */,
+				377AD9EA180A046C00EB0008 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377AD9B7180A046C00EB0008 /* MadBomber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377AD9F1180A046C00EB0008 /* Build configuration list for PBXNativeTarget "MadBomber" */;
+			buildPhases = (
+				377AD9B4180A046C00EB0008 /* Sources */,
+				377AD9B5180A046C00EB0008 /* Frameworks */,
+				377AD9B6180A046C00EB0008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadBomber;
+			productName = MadBomber;
+			productReference = 377AD9B8180A046C00EB0008 /* MadBomber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377AD9DF180A046C00EB0008 /* MadBomberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377AD9F4180A046C00EB0008 /* Build configuration list for PBXNativeTarget "MadBomberTests" */;
+			buildPhases = (
+				377AD9DC180A046C00EB0008 /* Sources */,
+				377AD9DD180A046C00EB0008 /* Frameworks */,
+				377AD9DE180A046C00EB0008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377AD9E6180A046C00EB0008 /* PBXTargetDependency */,
+			);
+			name = MadBomberTests;
+			productName = MadBomberTests;
+			productReference = 377AD9E0180A046C00EB0008 /* MadBomberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377AD9B0180A046C00EB0008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Greg Tropino";
+				TargetAttributes = {
+					377AD9DF180A046C00EB0008 = {
+						TestTargetID = 377AD9B7180A046C00EB0008;
+					};
+				};
+			};
+			buildConfigurationList = 377AD9B3180A046C00EB0008 /* Build configuration list for PBXProject "MadBomber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377AD9AF180A046C00EB0008;
+			productRefGroup = 377AD9B9180A046C00EB0008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377AD9B7180A046C00EB0008 /* MadBomber */,
+				377AD9DF180A046C00EB0008 /* MadBomberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377AD9B6180A046C00EB0008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9C8180A046C00EB0008 /* InfoPlist.strings in Resources */,
+				377AD9DB180A046C00EB0008 /* Images.xcassets in Resources */,
+				3745AF7C180A236500C6FA5F /* snowParticle.sks in Resources */,
+				3745AF79180A22E300C6FA5F /* sparkParticle.sks in Resources */,
+				377AD9D9180A046C00EB0008 /* Spaceship.png in Resources */,
+				377AD9D1180A046C00EB0008 /* Main.storyboard in Resources */,
+				3745AF7A180A22E300C6FA5F /* spark.png in Resources */,
+				3745AF7E180A23BA00C6FA5F /* magicParticle.sks in Resources */,
+				3745AF75180A221A00C6FA5F /* MyParticle.sks in Resources */,
+				3745AF76180A221A00C6FA5F /* bokeh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377AD9DE180A046C00EB0008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9EC180A046C00EB0008 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377AD9B4180A046C00EB0008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9D7180A046C00EB0008 /* MyScene.m in Sources */,
+				377AD9D4180A046C00EB0008 /* ViewController.m in Sources */,
+				377AD9CE180A046C00EB0008 /* AppDelegate.m in Sources */,
+				377AD9CA180A046C00EB0008 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377AD9DC180A046C00EB0008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377AD9EE180A046C00EB0008 /* MadBomberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377AD9E6180A046C00EB0008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377AD9B7180A046C00EB0008 /* MadBomber */;
+			targetProxy = 377AD9E5180A046C00EB0008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377AD9C6180A046C00EB0008 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377AD9C7180A046C00EB0008 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		377AD9CF180A046C00EB0008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377AD9D0180A046C00EB0008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377AD9EA180A046C00EB0008 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377AD9EB180A046C00EB0008 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377AD9EF180A046C00EB0008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		377AD9F0180A046C00EB0008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377AD9F2180A046C00EB0008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadBomber/MadBomber-Prefix.pch";
+				INFOPLIST_FILE = "MadBomber/MadBomber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		377AD9F3180A046C00EB0008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadBomber/MadBomber-Prefix.pch";
+				INFOPLIST_FILE = "MadBomber/MadBomber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		377AD9F5180A046C00EB0008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MadBomber.app/MadBomber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadBomber/MadBomber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MadBomberTests/MadBomberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		377AD9F6180A046C00EB0008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MadBomber.app/MadBomber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadBomber/MadBomber-Prefix.pch";
+				INFOPLIST_FILE = "MadBomberTests/MadBomberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377AD9B3180A046C00EB0008 /* Build configuration list for PBXProject "MadBomber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377AD9EF180A046C00EB0008 /* Debug */,
+				377AD9F0180A046C00EB0008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377AD9F1180A046C00EB0008 /* Build configuration list for PBXNativeTarget "MadBomber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377AD9F2180A046C00EB0008 /* Debug */,
+				377AD9F3180A046C00EB0008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377AD9F4180A046C00EB0008 /* Build configuration list for PBXNativeTarget "MadBomberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377AD9F5180A046C00EB0008 /* Debug */,
+				377AD9F6180A046C00EB0008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377AD9B0180A046C00EB0008 /* Project object */;
+}
