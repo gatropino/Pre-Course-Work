@@ -106,6 +106,7 @@
             previousTag = currentTag;
             missEvaluator++;
         }
+        
         if (missEvaluator == 2)
         {
             previousTag = 0;

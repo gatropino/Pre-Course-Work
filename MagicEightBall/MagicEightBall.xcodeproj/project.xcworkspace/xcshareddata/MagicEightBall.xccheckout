@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8BD1E77A-883B-41CA-96A0-5DB6A8616E73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MagicEightBall</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B690BB02-4DD1-42B4-AE13-B38F422E2EA4</key>
+		<string>https://github.com/gatropino/Pre-Course-Work.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MagicEightBall/MagicEightBall.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B690BB02-4DD1-42B4-AE13-B38F422E2EA4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gatropino/Pre-Course-Work.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B690BB02-4DD1-42B4-AE13-B38F422E2EA4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B690BB02-4DD1-42B4-AE13-B38F422E2EA4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>first_git_project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

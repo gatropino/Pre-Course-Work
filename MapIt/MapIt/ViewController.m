@@ -61,7 +61,6 @@ NSURLRequest *request = [NSURLRequest requestWithURL:url];
  }];
 }
 
-
 - (void)mapView:(MKMapView *)aMapView didUpdateUserLocation:(MKUserLocation *)aUserLocation {
     MKCoordinateRegion region;
     MKCoordinateSpan span;

@@ -27,7 +27,7 @@
     
     [MyView beginAnimations:nil context:NULL];
     [MyView setAnimationDuration:.25];
-    [MyView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];
+    [MyView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];
     [MyView commitAnimations];
     
     if (self.tag == 1)
@@ -91,7 +91,7 @@
         self.backgroundColor = [UIColor colorWithPatternImage:image];
     } else
     {
-        NSLog(@"something went HORRIBLY wrong");
+        NSLog(@"something went HORRIBLY wrong with the tag assigning");
     }
 
     

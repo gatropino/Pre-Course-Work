@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Simon Allardice. All rights reserved.
 //
 
-#import "mas"
+#import "mast"
 #import "Course.h"
 #import "DisplayEditViewController.h"
 
