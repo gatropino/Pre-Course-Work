@@ -6,8 +6,7 @@
 //  Copyright (c) 2012 Simon Allardice. All rights reserved.
 //
 
-#import "mast"
-#import "Course.h"
+#import "MasterViewController.h"
 #import "DisplayEditViewController.h"
 
 @interface MasterViewController ()

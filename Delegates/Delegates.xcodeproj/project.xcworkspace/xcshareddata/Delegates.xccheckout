@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C8530491-5DDB-49F0-8CA5-431971CA8228</string>
+	<string>52AD6ED9-9955-4402-927B-4EAA027805CA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Delegates</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1C7BBC91-85B5-4D17-AD7B-26CE57A73925</key>
+		<key>734F437F-4C9E-4A60-B83B-36B8C9F6207C</key>
 		<string>https://github.com/gatropino/Pre-Course-Work.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Delegates/Delegates.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1C7BBC91-85B5-4D17-AD7B-26CE57A73925</key>
+		<key>734F437F-4C9E-4A60-B83B-36B8C9F6207C</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1C7BBC91-85B5-4D17-AD7B-26CE57A73925</string>
+	<string>734F437F-4C9E-4A60-B83B-36B8C9F6207C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1C7BBC91-85B5-4D17-AD7B-26CE57A73925</string>
+			<string>734F437F-4C9E-4A60-B83B-36B8C9F6207C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>first_git_project</string>
 		</dict>

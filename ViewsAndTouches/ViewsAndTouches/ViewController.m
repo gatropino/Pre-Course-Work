@@ -47,7 +47,7 @@
     self.view.backgroundColor = [UIColor yellowColor];
     
 }
-
+ 
 -(void)defaultDuffImage
 {
     for (UIView *view in self.view.subviews) {
@@ -65,11 +65,6 @@
     }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(void) didChooseView:(UIView *)view tagOfView:(int)currentTag
 {
@@ -133,7 +128,6 @@
             [self performSelector:@selector(scoreEvaluator)];
             [self performSelector:@selector(defaultDuffImage) withObject:nil afterDelay:.5];
             [timer invalidate];
-            
             NSString *clapPath = [[NSBundle mainBundle] pathForResource:@"winningSound"  ofType:@"wav"];
             CFURLRef clapURL = (__bridge CFURLRef ) [NSURL fileURLWithPath:clapPath];
             SystemSoundID clappingFileID;

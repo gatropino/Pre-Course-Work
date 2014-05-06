@@ -24,6 +24,7 @@
     locationManager.delegate = self;
 }
 
+
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     NSLog(@"Location has changed [%i] %@", locations.count, [locations objectAtIndex:0]);
